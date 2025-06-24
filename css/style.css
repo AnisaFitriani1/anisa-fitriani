@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Sistem Informasi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-content">
+      <img src="foto-profil.jpg" alt="Foto Profil" class="profile-img" />
+      <div class="text-info">
+        <h1>Anisa Fitriani</h1>
+        <p>Mahasiswa Sistem Informasi - Universitas Pamulang Serang</p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#tentang">Tentang Saya</a></li>
+      <li><a href="#keahlian">Keahlian</a></li>
+      <li><a href="#proyek">Proyek</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <section id="tentang">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah mahasiswa Sistem Informasi yang memiliki minat dalam pengembangan aplikasi, data analisis, dan desain antarmuka.</p>
+    </div>
+  </section>
+
+  <section id="keahlian">
+    <div class="container">
+      <h2>Keahlian</h2>
+      <ul class="skills">
+        <li>HTML, CSS, JavaScript</li>
+        <li>Database (MySQL, Firebase)</li>
+        <li>Desain UI/UX (Figma)</li>
+        <li>Python & PHP</li>
+        <li>Analisis Sistem Informasi</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="proyek">
+    <div class="container">
+      <h2>Proyek</h2>
+      <div class="project-card">
+        <h3>Aplikasi Inventory Barang</h3>
+        <p>Aplikasi berbasis web untuk mencatat stok dan pengeluaran barang menggunakan PHP & MySQL.</p>
+      </div>
+      <div class="project-card">
+        <h3>Desain Website UKM</h3>
+        <p>Desain landing page untuk UKM lokal menggunakan HTML dan CSS responsif.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak">
+    <div class="container">
+      <h2>Kontak</h2>
+      <p>Email: anisafitriani@email.com</p>
+      <p>Instagram: @anisa_si</p>
+      <p>LinkedIn: linkedin.com/in/anisafitriani</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Anisa Fitriani. Sistem Informasi Portfolio.</p>
+    </div>
+  </footer>
+</body>
+</html>
